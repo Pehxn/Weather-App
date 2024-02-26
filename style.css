@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -20,7 +20,7 @@ body{
     background-color: #232931;
     color: #fff;
     border-radius: 25px;
-    box-shadow: o 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 .left-info{
@@ -30,7 +30,7 @@ body{
     display: flex;
     border-radius: 25px;
     justify-content: center;
-    background: url("https://jooinn.com/images/stone-background-14.jpg");
+    background: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-position: center;
     background-size: cover;
     transform: scale(1.03) perspective(200px);
@@ -144,7 +144,7 @@ body{
     padding: 25px 35px;
 }
 
-.loc-botton{
+.loc-button{
     outline: none;
     width: 100%;
     border: none;
@@ -158,6 +158,6 @@ body{
     transition: all 0.3s ease;
 }
 
-.loc-botton:hover{
+.loc-button:hover{
     background: #1a237e;
 }
